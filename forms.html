@@ -7,6 +7,11 @@
     <title>Формы</title>
 </head>
 <body>
+    <style>
+        h1 {
+            color: brown;
+        }
+    </style>
     <!-- Шапка сайта -->
     <header>
         <h1 style="color:red">Блок в верхней части страницы</h1>
@@ -35,12 +40,10 @@
         <!-- password - тип пароля -->
         <input type="password" minlength="4" maxlength="20" placeholder="Введите пароль от 4-х до 20-ти символов" id="second">
         <br><br>
-        <!-- submit - тип подтверждения, value - изменение надписи на кнопке -->
-        <input type="submit" value="Ввод">
-        <br><br>
+        
         <label for="age">Возраст</label>
         <!-- number - числовой тип -->
-        <input type="number" min="15" max="100" id="age"> 
+        <input type="number" min="15" max="100" id="age" placeholder="от 15 до 100 лет"> 
         <br>
         <label for="color">Цвет</label>
         <!-- color - тип цвет -->
@@ -56,9 +59,12 @@
         <label for="female">Женский пол</label>
         <input type="radio" id="female" name="gender"><br>
         <!-- reset - тип сброса -->
-        <input type="reset"><br>
+        <input type="reset" value="Возврат на предыдущую страницу"><br><br>
         <!-- button - тип свободной кнопки с произвольным названием -->
-        <input type="button" value="Имя кнопки">
+        <input type="button" value="Создана произвольная кнопка"><br><br>
+        <!-- submit - тип подтверждения, value - изменение надписи на кнопке -->
+        <input type="submit" value="Ввод">
+        
     </form>
     </main>
     <!-- Подвал, допинформация -->
